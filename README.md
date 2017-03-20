@@ -18,6 +18,7 @@ chmod 755 phantomjs
 ln phantomjs /bin/
 
 还需要安装phantomjs的所需库，phantomjs官网说明如下
+
 '''
 Note: For this static build, the binary is self-contained.
 There is no requirement to install Qt, WebKit, or any other libraries. 
