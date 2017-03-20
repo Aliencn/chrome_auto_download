@@ -1,14 +1,14 @@
 # chrome_auto_download
 python3
 
-##Windows运行前配置
+## Windows运行前配置
 pip install requests
 pip install requests[socks]
 pip install requests[security]
 pip install beautifulsoup4
 pip install selenium
 
-##Linux运行前配置
+## Linux运行前配置
 pip install requests
 pip install requests[socks]
 pip install requests[security]
@@ -26,12 +26,12 @@ The system must have GLIBCXX_3.4.9 and GLIBC_2.7.
 '''
 
 
-##支持其他系统的phantomjs版本下载
+## 支持其他系统的phantomjs版本下载
 http://phantomjs.org/download.html
 
 
 
-##使用说明
+## 使用说明
 '''
 from chrome_download import chrome_download
 chrome=chrome_download()
@@ -51,6 +51,6 @@ chrome.check_download()
 '''
 
 
-##注
+## 注
 windows版chrome建议检查一下数字签名是否正常后再安装
 mac和linux我不知道咋检查数字签名
